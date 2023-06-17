@@ -19,4 +19,4 @@ with open('oui.csv', 'w') as f:
             oui = split_line[0]
             company_name = " ".join(split_line[3:])
             print(f"\"{oui}\",\"{company_name}\"")
-            f.write(f"\"{oui}\",\"{company_name}\"")
+            f.write(f"\"{oui}\",\"{company_name}\"\n")
